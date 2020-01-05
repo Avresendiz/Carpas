@@ -1,11 +1,5 @@
 /* MY CSS */
 
-
-
-
-
-
-
 /* MY CSS */ 
  @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
  :root {
@@ -7558,6 +7552,10 @@
  
  .embed-responsive-16by9::before {
    padding-top: 56.25%;
+ }
+
+ .embed-responsive-9by16::before {
+   padding-top: 0.5625%;
  }
  
  .embed-responsive-4by3::before {
