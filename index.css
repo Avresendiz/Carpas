@@ -1,5 +1,7 @@
 /* MY CSS */
-
+.dimmed{
+  filter: brightness(50%)
+}
 /* MY CSS */ 
  @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
  :root {
@@ -4609,7 +4611,7 @@
    -webkit-box-pack: justify;
        -ms-flex-pack: justify;
            justify-content: space-between;
-   padding: 0.5rem 1rem;
+   padding: 0px;
  }
  
  .navbar .container,
@@ -5055,7 +5057,7 @@
    word-wrap: break-word;
    background-color: #fff;
    background-clip: border-box;
-   border: 1px solid rgba(223, 215, 202, 0.75);
+   /* border: 1px solid rgba(223, 215, 202, 0.75); */
    border-radius: 0.25rem;
  }
  
@@ -5146,7 +5148,7 @@
    right: 0;
    bottom: 0;
    left: 0;
-   padding: 1.25rem;
+   padding: 0px 1.25rem;
  }
  
  .card-img,
