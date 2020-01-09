@@ -36,11 +36,11 @@
   </head>
   <body class="bg-light">
     <!-- NAVBAR -->
-    <nav class="navbar bg-dark">
-      <a class="navbar-brand pl-3" href="/">
+    <nav class="navbar py-1 bg-dark">
+      <a class="navbar-brand pl-2" href="/">
         <img src="/photos/Carpas-Logo.png" width="30" height="30" alt="" />
       </a>
-      <div class="pr-3 px-1 ml-auto" id="google_translate_element"></div>
+      <div class="ml-auto pr-3" id="google_translate_element"></div>
     </nav>
     <!-- BANNER -->
     <div class="card text-white">
@@ -83,13 +83,15 @@
       </div>
     </div>
     <!-- MAIN CONTENT -->
-    <div class="container marketing py-5">
+    <div class="container marketing pt-3 pb-5">
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">
             Quality products.
-            <span class="text-muted text-nowrap">Best prices</span>
           </h2>
+          <p class="text-muted">
+            Best prices in LA!
+          </p>
           <h5 class="lead font-weight-bold text-capitalize">Carps</h5>
           <h5 class="lead">
             10 by 20
@@ -103,10 +105,10 @@
             20 by 30
             <span class="text-muted float-right">$1.50</span>
           </h5>
-          <p class="lead">
+          <h5 class="lead">
             20 by 30
             <span class="text-muted float-right">$2.00</span>
-          </p>
+          </h5>
           <h5 class="lead font-weight-bold">
             Tables
           </h5>
@@ -114,16 +116,22 @@
             Round (sits 8-10)
             <span class="text-muted float-right">$5.00</span>
           </h5>
-          <p class="lead">
+          <h5 class="lead">
             Rectangle (sits 8-10)
             <span class="text-muted float-right">$5.00</span>
-          </p>
-          <p class="lead">
-            <span class="font-weight-bold">Chairs</span>
+          </h5>
+          <h5 class="lead font-weight-bold">
+            Chairs
+          </h5>
+          <h5 class="lead">
+            Each
             <span class="text-muted float-right">$5.00</span>
-          </p>
+          </h5>
+          <h5 class="lead font-weight-bold">
+            Portable Restrooms
+          </h5>
           <p class="lead">
-            <span class="font-weight-bold">Portable Restrooms</span>
+            Each
             <span class="text-muted float-right">$5.00</span>
           </p>
         </div>
@@ -136,73 +144,58 @@
           />
         </div>
       </div>
-      <div class="my-3">
-        <button type="button" class="btn btn-outline-primary btn-lg btn-block">
-          Price Calculator
-        </button>
-      </div>
       <hr class="featurette-divider" />
       <div class="row featurette">
         <div class="col">
-          <h2 class="featurette-heading text-muted">
+          <h2 class="featurette-heading">
             Leave the hard work to us.
           </h2>
-          <p class="lead pb-2 font-weight-bold">
+          <p class="text-muted">
             We build today, and take down tomorrow.
           </p>
           <div
             class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3"
           >
             <div class="col pb-4">
-              <img src="/photos/8.jpg" class="w-100" alt="..." />
+              <img src="/photos/8.jpg" class="w-100" />
             </div>
             <div class="col pb-4">
-              <img src="/photos/9.jpg" class="w-100" alt="..." />
+              <img src="/photos/9.jpg" class="w-100" />
             </div>
             <div class="col pb-4">
-              <img src="/photos/5.jpg" class="w-100" alt="..." />
+              <img src="/photos/5.jpg" class="w-100" />
             </div>
             <div class="col pb-4">
-              <img src="/photos/2.jpg" class="w-100" alt="..." />
+              <img src="/photos/2.jpg" class="w-100" />
             </div>
             <div class="col pb-4">
-              <img src="/photos/3.jpg" class="w-100" alt="..." />
+              <img src="/photos/3.jpg" class="w-100" />
             </div>
             <div class="col pb-4">
-              <img src="/photos/6.jpg" class="w-100" alt="..." />
+              <img src="/photos/6.jpg" class="w-100" />
             </div>
             <div class="col pb-4">
-              <img src="/photos/7.jpg" class="w-100" alt="..." />
+              <img src="/photos/7.jpg" class="w-100" />
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- FOOTER -->
-    <nav class="navbar bg-dark">
-      <h1
-        class="font-weight-bold text-nowrap pt-3 mx-auto"
-        style="font-size:5vw;"
-      >
-        Contact Information - (909) 380-9810
-      </h1>
-      <div class="container">
-        <h1 class="text-center" style="font-size:4vw;">
+    <div class="bg-dark py-2">
+      <div class="container text-center">
+        <h1 class="font-weight-bold text-nowrap" style="font-size:4vw;">
+          Contact Information - (909) 380-9810
+        </h1>
+        <h1 style="font-size:4vw;">
           If you complete a quote, we will contact you to review the details. If
           you want faster service or direct information, send us a text message
           to the number listed above.
         </h1>
       </div>
-    </nav>
+    </div>
     <!-- SPANISH MODAL -->
-    <div
-      class="modal fade"
-      id="spanishQuote"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="spanishQuote" role="dialog">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body">
@@ -219,14 +212,7 @@
       </div>
     </div>
     <!-- ENGLISH MODAL -->
-    <div
-      class="modal fade"
-      id="englishQuote"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="englishQuote" role="dialog">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body">
@@ -242,20 +228,23 @@
         </div>
       </div>
     </div>
-    <!-- JS SCRIPTS -->
+    <!-- GOOGLE JS SCRIPTS -->
     <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement(
-          { pageLanguage: "en" },
+          {
+            pageLanguage: "en",
+            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+          },
           "google_translate_element"
         );
       }
     </script>
-
     <script
       type="text/javascript"
       src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     ></script>
+    <!-- MAIN JS SCRIPTS -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -271,5 +260,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <!-- END OF SCRIPTS -->
   </body>
 </html>
