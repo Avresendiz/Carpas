@@ -40,7 +40,7 @@
       <a class="navbar-brand pl-2" href="/">
         <img src="/photos/Carpas-Logo.png" width="30" height="30" alt="" />
       </a>
-      <div class="ml-auto pr-3" id="google_translate_element"></div>
+      <div class="ml-auto pr-2" id="google_translate_element"></div>
     </nav>
     <!-- BANNER -->
     <div class="card text-white">
@@ -50,25 +50,8 @@
         alt="Responsive image"
       />
       <div class="card-img-overlay">
-        <table style="height: 70%; width: 100%;">
+        <table style="height: 100%; width: 100%;">
           <tbody>
-            <!-- FLOATING BUTTONS -->
-            <button
-              type="button"
-              class="btn btn-outline-light btn-lg mt-2 float-left"
-              data-toggle="modal"
-              data-target="#spanishQuote"
-            >
-              Presupuesto en español
-            </button>
-            <button
-              type="button"
-              class="btn btn-outline-light btn-lg mt-2 float-right"
-              data-toggle="modal"
-              data-target="#englishQuote"
-            >
-              Quote in English
-            </button>
             <tr>
               <!-- HERO TEXT -->
               <td
@@ -86,54 +69,56 @@
     <div class="container marketing pt-3 pb-5">
       <div class="row featurette">
         <div class="col-md-7">
+          <button
+            type="button"
+            class="btn btn-outline-dark btn-md btn-block my-2"
+            data-toggle="modal"
+            data-target="#spanishQuote"
+          >
+            Presupuesto en español
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-dark btn-md btn-block my-2"
+            data-toggle="modal"
+            data-target="#englishQuote"
+          >
+            Quote in English
+          </button>
           <h2 class="featurette-heading">
             Quality products.
           </h2>
-          <p class="text-muted">
+          <h5 class="lead text-muted">
             Best prices in LA!
-          </p>
+          </h5>
           <h5 class="lead font-weight-bold text-capitalize">Carps</h5>
           <h5 class="lead">
             10 by 20
-            <span class="text-muted float-right">$1.00</span>
           </h5>
           <h5 class="lead">
             20 by 20
-            <span class="text-muted float-right">$1.00</span>
           </h5>
           <h5 class="lead">
             20 by 30
-            <span class="text-muted float-right">$1.50</span>
           </h5>
           <h5 class="lead">
             20 by 30
-            <span class="text-muted float-right">$2.00</span>
           </h5>
           <h5 class="lead font-weight-bold">
             Tables
           </h5>
           <h5 class="lead">
             Round (sits 8-10)
-            <span class="text-muted float-right">$5.00</span>
           </h5>
           <h5 class="lead">
             Rectangle (sits 8-10)
-            <span class="text-muted float-right">$5.00</span>
           </h5>
           <h5 class="lead font-weight-bold">
             Chairs
           </h5>
-          <h5 class="lead">
-            Each
-            <span class="text-muted float-right">$5.00</span>
-          </h5>
           <h5 class="lead font-weight-bold">
             Portable Restrooms
           </h5>
-          <p class="lead">
-            Each
-            <span class="text-muted float-right">$5.00</span>
-          </p>
         </div>
         <div class="col-md-5">
           <img
@@ -150,9 +135,9 @@
           <h2 class="featurette-heading">
             Leave the hard work to us.
           </h2>
-          <p class="text-muted">
+          <h5 class="lead text-muted">
             We build today, and take down tomorrow.
-          </p>
+          </h5>
           <div
             class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3"
           >
@@ -187,7 +172,7 @@
         <h1 class="font-weight-bold text-nowrap" style="font-size:4vw;">
           Contact Information - (909) 380-9810
         </h1>
-        <h1 style="font-size:4vw;">
+        <h1 style="font-size:3vw;">
           If you complete a quote, we will contact you to review the details. If
           you want faster service or direct information, send us a text message
           to the number listed above.
@@ -198,6 +183,11 @@
     <div class="modal fade" id="spanishQuote" role="dialog">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
           <div class="modal-body">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSebYREBZIUnduGza_ft9eNCHa5LvhLO-UQ6nzTyPd3ROH7lyg/viewform?embedded=true"
@@ -208,6 +198,15 @@
               marginwidth="0"
             ></iframe>
           </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -215,6 +214,11 @@
     <div class="modal fade" id="englishQuote" role="dialog">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
           <div class="modal-body">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeI4LBuh29jPSFTTQy9dZeyyT2nHBRXnXH9beHjo-bwl--u7A/viewform?embedded=true"
@@ -224,6 +228,15 @@
               marginheight="0"
               marginwidth="0"
             ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
