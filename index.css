@@ -2,6 +2,12 @@
 .dimmed {
   filter: brightness(50%);
 }
+
+.carpa {
+  width: 100%;
+  height: 23rem;
+}
+
 /* MY CSS */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 :root {
